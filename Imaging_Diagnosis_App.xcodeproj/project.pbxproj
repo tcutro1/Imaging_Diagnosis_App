@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87D1A7522AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */; };
+		87D1A7542AF2B9A600AB3210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7532AF2B9A600AB3210 /* ContentView.swift */; };
+		87D1A7562AF2B9A800AB3210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D1A7552AF2B9A800AB3210 /* Assets.xcassets */; };
+		87D1A7592AF2B9A800AB3210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D1A7582AF2B9A800AB3210 /* Preview Assets.xcassets */; };
+		87D1A7632AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7622AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests.swift */; };
+		87D1A76D2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A76C2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests.swift */; };
+		87D1A76F2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A76E2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87D1A75F2AF2B9A900AB3210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D1A7462AF2B9A500AB3210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87D1A74D2AF2B9A600AB3210;
+			remoteInfo = Imaging_Diagnosis_App;
+		};
+		87D1A7692AF2B9A900AB3210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D1A7462AF2B9A500AB3210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87D1A74D2AF2B9A600AB3210;
+			remoteInfo = Imaging_Diagnosis_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87D1A74E2AF2B9A600AB3210 /* Imaging_Diagnosis_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imaging_Diagnosis_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging_Diagnosis_AppApp.swift; sourceTree = "<group>"; };
+		87D1A7532AF2B9A600AB3210 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87D1A7552AF2B9A800AB3210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87D1A7582AF2B9A800AB3210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87D1A75E2AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Imaging_Diagnosis_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D1A7622AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging_Diagnosis_AppTests.swift; sourceTree = "<group>"; };
+		87D1A7682AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Imaging_Diagnosis_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D1A76C2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging_Diagnosis_AppUITests.swift; sourceTree = "<group>"; };
+		87D1A76E2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging_Diagnosis_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87D1A74B2AF2B9A600AB3210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D1A75B2AF2B9A900AB3210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D1A7652AF2B9A900AB3210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87D1A7452AF2B9A500AB3210 = {
+			isa = PBXGroup;
+			children = (
+				87D1A7502AF2B9A600AB3210 /* Imaging_Diagnosis_App */,
+				87D1A7612AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests */,
+				87D1A76B2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests */,
+				87D1A74F2AF2B9A600AB3210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87D1A74F2AF2B9A600AB3210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87D1A74E2AF2B9A600AB3210 /* Imaging_Diagnosis_App.app */,
+				87D1A75E2AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests.xctest */,
+				87D1A7682AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87D1A7502AF2B9A600AB3210 /* Imaging_Diagnosis_App */ = {
+			isa = PBXGroup;
+			children = (
+				87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */,
+				87D1A7532AF2B9A600AB3210 /* ContentView.swift */,
+				87D1A7552AF2B9A800AB3210 /* Assets.xcassets */,
+				87D1A7572AF2B9A800AB3210 /* Preview Content */,
+			);
+			path = Imaging_Diagnosis_App;
+			sourceTree = "<group>";
+		};
+		87D1A7572AF2B9A800AB3210 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87D1A7582AF2B9A800AB3210 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87D1A7612AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				87D1A7622AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests.swift */,
+			);
+			path = Imaging_Diagnosis_AppTests;
+			sourceTree = "<group>";
+		};
+		87D1A76B2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87D1A76C2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests.swift */,
+				87D1A76E2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITestsLaunchTests.swift */,
+			);
+			path = Imaging_Diagnosis_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87D1A74D2AF2B9A600AB3210 /* Imaging_Diagnosis_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D1A7722AF2B9A900AB3210 /* Build configuration list for PBXNativeTarget "Imaging_Diagnosis_App" */;
+			buildPhases = (
+				87D1A74A2AF2B9A600AB3210 /* Sources */,
+				87D1A74B2AF2B9A600AB3210 /* Frameworks */,
+				87D1A74C2AF2B9A600AB3210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Imaging_Diagnosis_App;
+			productName = Imaging_Diagnosis_App;
+			productReference = 87D1A74E2AF2B9A600AB3210 /* Imaging_Diagnosis_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87D1A75D2AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D1A7752AF2B9A900AB3210 /* Build configuration list for PBXNativeTarget "Imaging_Diagnosis_AppTests" */;
+			buildPhases = (
+				87D1A75A2AF2B9A900AB3210 /* Sources */,
+				87D1A75B2AF2B9A900AB3210 /* Frameworks */,
+				87D1A75C2AF2B9A900AB3210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D1A7602AF2B9A900AB3210 /* PBXTargetDependency */,
+			);
+			name = Imaging_Diagnosis_AppTests;
+			productName = Imaging_Diagnosis_AppTests;
+			productReference = 87D1A75E2AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87D1A7672AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D1A7782AF2B9A900AB3210 /* Build configuration list for PBXNativeTarget "Imaging_Diagnosis_AppUITests" */;
+			buildPhases = (
+				87D1A7642AF2B9A900AB3210 /* Sources */,
+				87D1A7652AF2B9A900AB3210 /* Frameworks */,
+				87D1A7662AF2B9A900AB3210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D1A76A2AF2B9A900AB3210 /* PBXTargetDependency */,
+			);
+			name = Imaging_Diagnosis_AppUITests;
+			productName = Imaging_Diagnosis_AppUITests;
+			productReference = 87D1A7682AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87D1A7462AF2B9A500AB3210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					87D1A74D2AF2B9A600AB3210 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					87D1A75D2AF2B9A900AB3210 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 87D1A74D2AF2B9A600AB3210;
+					};
+					87D1A7672AF2B9A900AB3210 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 87D1A74D2AF2B9A600AB3210;
+					};
+				};
+			};
+			buildConfigurationList = 87D1A7492AF2B9A500AB3210 /* Build configuration list for PBXProject "Imaging_Diagnosis_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87D1A7452AF2B9A500AB3210;
+			productRefGroup = 87D1A74F2AF2B9A600AB3210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87D1A74D2AF2B9A600AB3210 /* Imaging_Diagnosis_App */,
+				87D1A75D2AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests */,
+				87D1A7672AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87D1A74C2AF2B9A600AB3210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D1A7592AF2B9A800AB3210 /* Preview Assets.xcassets in Resources */,
+				87D1A7562AF2B9A800AB3210 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D1A75C2AF2B9A900AB3210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D1A7662AF2B9A900AB3210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87D1A74A2AF2B9A600AB3210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D1A7542AF2B9A600AB3210 /* ContentView.swift in Sources */,
+				87D1A7522AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D1A75A2AF2B9A900AB3210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D1A7632AF2B9A900AB3210 /* Imaging_Diagnosis_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D1A7642AF2B9A900AB3210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D1A76D2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITests.swift in Sources */,
+				87D1A76F2AF2B9A900AB3210 /* Imaging_Diagnosis_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87D1A7602AF2B9A900AB3210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87D1A74D2AF2B9A600AB3210 /* Imaging_Diagnosis_App */;
+			targetProxy = 87D1A75F2AF2B9A900AB3210 /* PBXContainerItemProxy */;
+		};
+		87D1A76A2AF2B9A900AB3210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87D1A74D2AF2B9A600AB3210 /* Imaging_Diagnosis_App */;
+			targetProxy = 87D1A7692AF2B9A900AB3210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87D1A7702AF2B9A900AB3210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87D1A7712AF2B9A900AB3210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87D1A7732AF2B9A900AB3210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Imaging_Diagnosis_App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamm.Imaging-Diagnosis-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87D1A7742AF2B9A900AB3210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Imaging_Diagnosis_App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamm.Imaging-Diagnosis-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87D1A7762AF2B9A900AB3210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamm.Imaging-Diagnosis-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imaging_Diagnosis_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Imaging_Diagnosis_App";
+			};
+			name = Debug;
+		};
+		87D1A7772AF2B9A900AB3210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamm.Imaging-Diagnosis-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imaging_Diagnosis_App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Imaging_Diagnosis_App";
+			};
+			name = Release;
+		};
+		87D1A7792AF2B9A900AB3210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamm.Imaging-Diagnosis-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Imaging_Diagnosis_App;
+			};
+			name = Debug;
+		};
+		87D1A77A2AF2B9A900AB3210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hamm.Imaging-Diagnosis-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Imaging_Diagnosis_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87D1A7492AF2B9A500AB3210 /* Build configuration list for PBXProject "Imaging_Diagnosis_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D1A7702AF2B9A900AB3210 /* Debug */,
+				87D1A7712AF2B9A900AB3210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D1A7722AF2B9A900AB3210 /* Build configuration list for PBXNativeTarget "Imaging_Diagnosis_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D1A7732AF2B9A900AB3210 /* Debug */,
+				87D1A7742AF2B9A900AB3210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D1A7752AF2B9A900AB3210 /* Build configuration list for PBXNativeTarget "Imaging_Diagnosis_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D1A7762AF2B9A900AB3210 /* Debug */,
+				87D1A7772AF2B9A900AB3210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D1A7782AF2B9A900AB3210 /* Build configuration list for PBXNativeTarget "Imaging_Diagnosis_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D1A7792AF2B9A900AB3210 /* Debug */,
+				87D1A77A2AF2B9A900AB3210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87D1A7462AF2B9A500AB3210 /* Project object */;
+}
