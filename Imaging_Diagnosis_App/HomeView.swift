@@ -19,43 +19,41 @@ struct HomeView: View {
                         
                             .foregroundColor(Color.blue)
                         
-                        
-                        
+                    
                     }
                     
                     
                     HStack(){
-                        
+                        Spacer()
                         ZStack{
                             Rectangle()
-                            Button {
-                                print("hi")
-                            }
-                        label: {
-                            VStack{
-                                Text("Calibrate").foregroundColor(.red)
-                                Image(systemName:"star.fill")
-                                    .foregroundColor(Color.red)
-                            }
-                        }
+                            NavigationLink( destination: CalibrationView()){
+                                VStack{
+                                    Text("Calibrate").foregroundColor(.red)
+                                    Image(systemName:"level.fill")
+                                        .foregroundColor(Color.red)
+                                    
+                                }}
+                            
+                                
+                                
+                            
                             
                         }
                         
+                        
                         ZStack{
                             Rectangle()
-                            Button {
-                                print("low")
-                            } label: {
+                            NavigationLink( destination: SettingView()){
                                 VStack{
                                     Text("Settings").foregroundColor(.red)
                                     Image(systemName:"gearshape.fill")
                                         .foregroundColor(Color.red)
-                                }
+                                    
+                                }}
+                            
                                 
-                            }
-                            
-                            
-                            
+                                
                             
                             
                         }
@@ -103,22 +101,22 @@ struct HomeView: View {
                         
                         ZStack{
                             Rectangle()
-                            Button {
-                                print("low")
-                            } label: {
+                            NavigationLink( destination: HelpView()){
                                 VStack{
                                     Text("Help").foregroundColor(.red)
                                     Image(systemName:"questionmark")
                                         .foregroundColor(Color.red)
                                     
-                                }
-                                
-                            }
+                                }}
                             
-                        }
+                                
+                                
+                            
                         
+                        }
+                        Spacer()
                     }
-                    .frame(height: /*@START_MENU_TOKEN@*/74.0/*@END_MENU_TOKEN@*/)
+                    .frame(height: /*@START_MENU_TOKEN@*/72.0/*@END_MENU_TOKEN@*/)
                     
                     
                 }.ignoresSafeArea()
