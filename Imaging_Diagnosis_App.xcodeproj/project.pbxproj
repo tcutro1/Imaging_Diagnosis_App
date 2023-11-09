@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871FACBE2AFC4F0600AA5148 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACBD2AFC4F0600AA5148 /* CameraService.swift */; };
+		871FACC02AFC5ABF00AA5148 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACBF2AFC5ABF00AA5148 /* CameraView.swift */; };
+		871FACC82AFC656B00AA5148 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACC72AFC656B00AA5148 /* CustomCameraView.swift */; };
+		871FACCA2AFC65A600AA5148 /* CameraTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACC92AFC65A600AA5148 /* CameraTestView.swift */; };
 		87D1A7522AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */; };
 		87D1A7542AF2B9A600AB3210 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7532AF2B9A600AB3210 /* HomeView.swift */; };
 		87D1A7562AF2B9A800AB3210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D1A7552AF2B9A800AB3210 /* Assets.xcassets */; };
@@ -18,7 +22,6 @@
 		87D1A77E2AF2BE3B00AB3210 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A77D2AF2BE3B00AB3210 /* HelpView.swift */; };
 		87D1A7802AF2BF5C00AB3210 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A77F2AF2BF5C00AB3210 /* SettingView.swift */; };
 		87D1A7822AF2C2AF00AB3210 /* CalibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7812AF2C2AF00AB3210 /* CalibrationView.swift */; };
-		87D1A7842AF2CC5200AB3210 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7832AF2CC5200AB3210 /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		871FACBD2AFC4F0600AA5148 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		871FACBF2AFC5ABF00AA5148 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		871FACC72AFC656B00AA5148 /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
+		871FACC92AFC65A600AA5148 /* CameraTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestView.swift; sourceTree = "<group>"; };
 		87D1A74E2AF2B9A600AB3210 /* Imaging_Diagnosis_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imaging_Diagnosis_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging_Diagnosis_AppApp.swift; sourceTree = "<group>"; };
 		87D1A7532AF2B9A600AB3210 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -53,7 +60,6 @@
 		87D1A77D2AF2BE3B00AB3210 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		87D1A77F2AF2BF5C00AB3210 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		87D1A7812AF2C2AF00AB3210 /* CalibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationView.swift; sourceTree = "<group>"; };
-		87D1A7832AF2CC5200AB3210 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +116,10 @@
 				87D1A77B2AF2BA5A00AB3210 /* LibraryView.swift */,
 				87D1A77D2AF2BE3B00AB3210 /* HelpView.swift */,
 				87D1A77F2AF2BF5C00AB3210 /* SettingView.swift */,
-				87D1A7832AF2CC5200AB3210 /* CameraView.swift */,
+				871FACBD2AFC4F0600AA5148 /* CameraService.swift */,
+				871FACBF2AFC5ABF00AA5148 /* CameraView.swift */,
+				871FACC92AFC65A600AA5148 /* CameraTestView.swift */,
+				871FACC72AFC656B00AA5148 /* CustomCameraView.swift */,
 				87D1A7552AF2B9A800AB3210 /* Assets.xcassets */,
 				87D1A7572AF2B9A800AB3210 /* Preview Content */,
 			);
@@ -273,12 +282,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				87D1A7542AF2B9A600AB3210 /* HomeView.swift in Sources */,
-				87D1A7842AF2CC5200AB3210 /* CameraView.swift in Sources */,
+				871FACC82AFC656B00AA5148 /* CustomCameraView.swift in Sources */,
 				87D1A7802AF2BF5C00AB3210 /* SettingView.swift in Sources */,
+				871FACCA2AFC65A600AA5148 /* CameraTestView.swift in Sources */,
 				87D1A77E2AF2BE3B00AB3210 /* HelpView.swift in Sources */,
 				87D1A7822AF2C2AF00AB3210 /* CalibrationView.swift in Sources */,
 				87D1A77C2AF2BA5A00AB3210 /* LibraryView.swift in Sources */,
 				87D1A7522AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift in Sources */,
+				871FACBE2AFC4F0600AA5148 /* CameraService.swift in Sources */,
+				871FACC02AFC5ABF00AA5148 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +449,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Imaging_Diagnosis_App/Preview Content\"";
+				DEVELOPMENT_TEAM = R8G27KTU84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Keep photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -467,10 +480,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Imaging_Diagnosis_App/Preview Content\"";
+				DEVELOPMENT_TEAM = R8G27KTU84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Keep photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

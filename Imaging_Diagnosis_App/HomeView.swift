@@ -116,7 +116,7 @@ struct HomeView: View {
                         }
                         Spacer()
                     }
-                    .frame(height: /*@START_MENU_TOKEN@*/72.0/*@END_MENU_TOKEN@*/)
+                    .frame(height: /*@START_MENU_TOKEN@*/77.0/*@END_MENU_TOKEN@*/)
                     
                     
                 }.ignoresSafeArea()
