@@ -87,6 +87,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87CD9EE92AFD93EB00E276DA /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				871FACBD2AFC4F0600AA5148 /* CameraService.swift */,
+				871FACBF2AFC5ABF00AA5148 /* CameraView.swift */,
+				871FACC92AFC65A600AA5148 /* CameraTestView.swift */,
+				871FACC72AFC656B00AA5148 /* CustomCameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		87CD9EEB2AFD940B00E276DA /* Other Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				87D1A7812AF2C2AF00AB3210 /* CalibrationView.swift */,
+				87D1A77B2AF2BA5A00AB3210 /* LibraryView.swift */,
+				87D1A77D2AF2BE3B00AB3210 /* HelpView.swift */,
+				87D1A77F2AF2BF5C00AB3210 /* SettingView.swift */,
+			);
+			path = "Other Tabs";
+			sourceTree = "<group>";
+		};
 		87D1A7452AF2B9A500AB3210 = {
 			isa = PBXGroup;
 			children = (
@@ -112,14 +134,8 @@
 			children = (
 				87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */,
 				87D1A7532AF2B9A600AB3210 /* HomeView.swift */,
-				87D1A7812AF2C2AF00AB3210 /* CalibrationView.swift */,
-				87D1A77B2AF2BA5A00AB3210 /* LibraryView.swift */,
-				87D1A77D2AF2BE3B00AB3210 /* HelpView.swift */,
-				87D1A77F2AF2BF5C00AB3210 /* SettingView.swift */,
-				871FACBD2AFC4F0600AA5148 /* CameraService.swift */,
-				871FACBF2AFC5ABF00AA5148 /* CameraView.swift */,
-				871FACC92AFC65A600AA5148 /* CameraTestView.swift */,
-				871FACC72AFC656B00AA5148 /* CustomCameraView.swift */,
+				87CD9EE92AFD93EB00E276DA /* Camera */,
+				87CD9EEB2AFD940B00E276DA /* Other Tabs */,
 				87D1A7552AF2B9A800AB3210 /* Assets.xcassets */,
 				87D1A7572AF2B9A800AB3210 /* Preview Content */,
 			);
@@ -215,7 +231,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					87D1A74D2AF2B9A600AB3210 = {
 						CreatedOnToolsVersion = 14.2;
@@ -363,6 +379,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -423,6 +440,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

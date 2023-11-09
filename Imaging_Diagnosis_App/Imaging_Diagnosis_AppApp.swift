@@ -11,7 +11,7 @@ import SwiftUI
 struct Imaging_Diagnosis_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+                HomeView()
         }
     }
 }

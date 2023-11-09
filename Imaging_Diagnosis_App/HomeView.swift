@@ -8,115 +8,87 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var capturedImage: UIImage? = nil
     var body: some View {
         NavigationView(){
             ZStack{
                 Rectangle().foregroundColor(.black).ignoresSafeArea()
                 VStack(alignment: .center) {
+                    CustomCameraView(capturedImage: $capturedImage)
                     ZStack{
-                        Rectangle().foregroundColor(.white)
-                        Image(systemName: "camera.fill")
-                        
-                            .foregroundColor(Color.blue)
-                        
-                    
-                    }
-                    
-                    
-                    HStack(){
-                        Spacer()
-                        ZStack{
-                            Rectangle()
-                            NavigationLink( destination: CalibrationView()){
-                                VStack{
-                                    Text("Calibrate").foregroundColor(.red)
-                                    Image(systemName:"level.fill")
-                                        .foregroundColor(Color.red)
-                                    
-                                }}
-                            
+                        Rectangle().foregroundColor(.black).frame(height: 100)
+                        HStack(){
+                            Spacer()
+                            ZStack{
+                                Rectangle()
+                                NavigationLink( destination: CalibrationView()){
+                                    VStack{
+                                        Text("Calibrate").foregroundColor(.red)
+                                        Image(systemName:"level.fill")
+                                            .foregroundColor(Color.red)
+                                        
+                                    }}
                                 
                                 
-                            
-                            
-                        }
-                        
-                        
-                        ZStack{
-                            Rectangle()
-                            NavigationLink( destination: SettingView()){
-                                VStack{
-                                    Text("Settings").foregroundColor(.red)
-                                    Image(systemName:"gearshape.fill")
-                                        .foregroundColor(Color.red)
-                                    
-                                }}
-                            
                                 
                                 
+                                
+                            }
                             
                             
-                        }
-                        
-                        ZStack{
-                            Rectangle()
-                            Button {
-                                print("low")
-                            } label: {
-                                VStack{
-                                    
-                                    Image(systemName:"button.programmable")
-                                        .resizable()
-                                        .foregroundColor(Color.red)
-                                        .padding(/*@START_MENU_TOKEN@*/.all, 17.0/*@END_MENU_TOKEN@*/)
-                                    
-                                    
-                                    
-                                    
-                                }
+                            ZStack{
+                                Rectangle()
+                                NavigationLink( destination: SettingView()){
+                                    VStack{
+                                        Text("Settings").foregroundColor(.red)
+                                        Image(systemName:"gearshape.fill")
+                                            .foregroundColor(Color.red)
+                                        
+                                    }}
+                                
+                                
+                                
+                                
                                 
                             }
                             
                             
                             
+                            ZStack{
+                                Rectangle()
+                                NavigationLink( destination: LibraryView()){
+                                    VStack{
+                                        Text("Library").foregroundColor(.red)
+                                        Image(systemName:"photo.stack")
+                                            .foregroundColor(Color.red)
+                                        
+                                    }}
+                                
+                                
+                                
+                                
+                                
+                            }
                             
-                            
+                            ZStack{
+                                Rectangle()
+                                NavigationLink( destination: HelpView()){
+                                    VStack{
+                                        Text("Help").foregroundColor(.red)
+                                        Image(systemName:"questionmark")
+                                            .foregroundColor(Color.red)
+                                        
+                                    }}
+                                
+                                
+                                
+                                
+                                
+                            }
+                            Spacer()
                         }
-                        
-                        ZStack{
-                            Rectangle()
-                            NavigationLink( destination: LibraryView()){
-                                VStack{
-                                    Text("Library").foregroundColor(.red)
-                                    Image(systemName:"photo.stack")
-                                        .foregroundColor(Color.red)
-                                    
-                                }}
-                            
-                                
-                                
-                            
-                            
-                        }
-                        
-                        ZStack{
-                            Rectangle()
-                            NavigationLink( destination: HelpView()){
-                                VStack{
-                                    Text("Help").foregroundColor(.red)
-                                    Image(systemName:"questionmark")
-                                        .foregroundColor(Color.red)
-                                    
-                                }}
-                            
-                                
-                                
-                            
-                        
-                        }
-                        Spacer()
+                        .frame(height: /*@START_MENU_TOKEN@*/77.0/*@END_MENU_TOKEN@*/)
                     }
-                    .frame(height: /*@START_MENU_TOKEN@*/77.0/*@END_MENU_TOKEN@*/)
                     
                     
                 }.ignoresSafeArea()

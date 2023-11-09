@@ -53,7 +53,7 @@ class CameraService {
                 }
                 previewLayer.videoGravity = .resizeAspectFill
                 previewLayer.session = session
-                session.stopRunning()
+                session.startRunning()
                 self.session = session
             } catch {
                 completion(error)
