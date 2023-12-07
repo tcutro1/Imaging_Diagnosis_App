@@ -8,30 +8,67 @@
 import SwiftUI
 
 struct LibraryView: View {
+    @State public var rgbimage: Image = Image("Testing")
+    
     var body: some View {
         ZStack{
             
             Rectangle().foregroundColor(.black).ignoresSafeArea()
             VStack{
                 HStack{
-                    ZStack{
-                        Rectangle().foregroundColor(.mint)
-                        Text("RGB Image")
-                    }
-                    ZStack{
-                        Rectangle().foregroundColor(.yellow)
-                        Text("Depth Image")
-                    }
+                   
+                    
+                    rgbimage.resizable().aspectRatio(contentMode: .fit)
+                    rgbimage.resizable().aspectRatio(contentMode: .fit)
+                    
+                    
                 }
-                HStack{
-                    ZStack{
-                        Rectangle().foregroundColor(.red)
-                        Text("Thermal Image")
-                    }
-                    ZStack{
-                        Rectangle().foregroundColor(.gray)
-                        Text("Image Library")
-                    }
+                rgbimage.resizable().aspectRatio(contentMode: .fit)
+                   
+                ZStack{
+                    
+                    ScrollView(.horizontal,showsIndicators: false){
+                        HStack(spacing:15){
+                            Button("""
+                                   Picture
+                                   1
+                                   """){
+                                
+                            }
+                            Button("""
+                                   Picture
+                                   2
+                                   """){
+                                
+                            }
+                            Button("""
+                                   Picture
+                                   3
+                                   """){
+                                
+                            }
+                            Button("""
+                                   Picture
+                                   4
+                                   """){
+                                
+                            }
+                            Button("""
+                                   Picture
+                                   5
+                                   """){
+                                
+                            }
+                            Button("""
+                                   Picture
+                                   6
+                                   """){
+                                
+                            }
+                            
+                        }
+                        
+                    }.padding(/*@START_MENU_TOKEN@*/[.top, .leading, .trailing]/*@END_MENU_TOKEN@*/).background()
                 }
                 
                 
@@ -39,6 +76,7 @@ struct LibraryView: View {
         }
     }
 }
+
 
 struct LibraryView_Previews: PreviewProvider {
     static var previews: some View {

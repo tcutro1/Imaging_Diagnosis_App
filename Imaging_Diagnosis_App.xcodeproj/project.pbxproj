@@ -11,6 +11,7 @@
 		871FACC02AFC5ABF00AA5148 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACBF2AFC5ABF00AA5148 /* CameraView.swift */; };
 		871FACC82AFC656B00AA5148 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACC72AFC656B00AA5148 /* CustomCameraView.swift */; };
 		871FACCA2AFC65A600AA5148 /* CameraTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACC92AFC65A600AA5148 /* CameraTestView.swift */; };
+		87973C802B215E16001427AE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87973C7F2B215E16001427AE /* SwiftUIView.swift */; };
 		87D1A7522AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */; };
 		87D1A7542AF2B9A600AB3210 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7532AF2B9A600AB3210 /* HomeView.swift */; };
 		87D1A7562AF2B9A800AB3210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D1A7552AF2B9A800AB3210 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		871FACBF2AFC5ABF00AA5148 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		871FACC72AFC656B00AA5148 /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
 		871FACC92AFC65A600AA5148 /* CameraTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestView.swift; sourceTree = "<group>"; };
+		87973C7F2B215E16001427AE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		87D1A74E2AF2B9A600AB3210 /* Imaging_Diagnosis_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imaging_Diagnosis_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging_Diagnosis_AppApp.swift; sourceTree = "<group>"; };
 		87D1A7532AF2B9A600AB3210 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				87D1A7812AF2C2AF00AB3210 /* CalibrationView.swift */,
+				87973C7F2B215E16001427AE /* SwiftUIView.swift */,
 				87D1A77B2AF2BA5A00AB3210 /* LibraryView.swift */,
 				87D1A77D2AF2BE3B00AB3210 /* HelpView.swift */,
 				87D1A77F2AF2BF5C00AB3210 /* SettingView.swift */,
@@ -299,6 +302,7 @@
 			files = (
 				87D1A7542AF2B9A600AB3210 /* HomeView.swift in Sources */,
 				871FACC82AFC656B00AA5148 /* CustomCameraView.swift in Sources */,
+				87973C802B215E16001427AE /* SwiftUIView.swift in Sources */,
 				87D1A7802AF2BF5C00AB3210 /* SettingView.swift in Sources */,
 				871FACCA2AFC65A600AA5148 /* CameraTestView.swift in Sources */,
 				87D1A77E2AF2BE3B00AB3210 /* HelpView.swift in Sources */,
