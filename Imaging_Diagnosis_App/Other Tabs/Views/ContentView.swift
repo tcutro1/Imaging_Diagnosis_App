@@ -33,18 +33,19 @@ struct ContentView: View {
                         )
                         .aspectRatio(calcAspect(orientation: viewOrientation, texture: manager.capturedData.depth), contentMode: .fit)
                         Spacer()
-                        Button {
-                            manager.processingCapturedResult ? manager.resumeStream() : manager.startPhotoCapture()
-                        } label: {
-                          Image(systemName: "camera.circle").font(.system(size: 72)).foregroundColor(.white)
-                          
-                          
-                        }
-                        .padding(.top, 400.0)
+                        
                         
                       }
                     }
                 //}
+                Button {
+                    manager.processingCapturedResult ? manager.resumeStream() : manager.startPhotoCapture()
+                } label: {
+                  Image(systemName: "camera.circle").font(.system(size: 72)).foregroundColor(.white)
+                  
+                  
+                }
+                
             }
         }
     }

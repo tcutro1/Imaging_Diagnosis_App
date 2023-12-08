@@ -11,6 +11,22 @@
 		871FACC02AFC5ABF00AA5148 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACBF2AFC5ABF00AA5148 /* CameraView.swift */; };
 		871FACC82AFC656B00AA5148 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACC72AFC656B00AA5148 /* CustomCameraView.swift */; };
 		871FACCA2AFC65A600AA5148 /* CameraTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871FACC92AFC65A600AA5148 /* CameraTestView.swift */; };
+		878A8BF22B23DC9B00C8029E /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BD92B23DC9A00C8029E /* CameraController.swift */; };
+		878A8BF62B23DC9B00C8029E /* CVPixelBuffer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BDF2B23DC9A00C8029E /* CVPixelBuffer+Extension.swift */; };
+		878A8BF72B23DC9B00C8029E /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BE02B23DC9A00C8029E /* CameraManager.swift */; };
+		878A8BF82B23DC9B00C8029E /* DepthOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BE22B23DC9A00C8029E /* DepthOverlay.swift */; };
+		878A8BF92B23DC9B00C8029E /* MetalTextureViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BE42B23DC9B00C8029E /* MetalTextureViewColor.swift */; };
+		878A8BFA2B23DC9B00C8029E /* MetalEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BE52B23DC9B00C8029E /* MetalEnvironment.swift */; };
+		878A8BFB2B23DC9B00C8029E /* MetalTextureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BE62B23DC9B00C8029E /* MetalTextureView.swift */; };
+		878A8BFC2B23DC9B00C8029E /* MetalTextureColorThresholdDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BE72B23DC9B00C8029E /* MetalTextureColorThresholdDepth.swift */; };
+		878A8BFD2B23DC9B00C8029E /* MetalContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BE82B23DC9B00C8029E /* MetalContentView.swift */; };
+		878A8BFE2B23DC9B00C8029E /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BEA2B23DC9B00C8029E /* shaders.metal */; };
+		878A8BFF2B23DC9B00C8029E /* MetalPointCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BEB2B23DC9B00C8029E /* MetalPointCloud.swift */; };
+		878A8C002B23DC9B00C8029E /* MetalTextureViewDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BEC2B23DC9B00C8029E /* MetalTextureViewDepth.swift */; };
+		878A8C012B23DC9B00C8029E /* MetalTextureColorZap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BED2B23DC9B00C8029E /* MetalTextureColorZap.swift */; };
+		878A8C022B23DC9B00C8029E /* ZoomOnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BEE2B23DC9B00C8029E /* ZoomOnTap.swift */; };
+		878A8C032B23DC9B00C8029E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BEF2B23DC9B00C8029E /* View+Extensions.swift */; };
+		878A8C042B23DC9B00C8029E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BF02B23DC9B00C8029E /* ContentView.swift */; };
 		87973C802B215E16001427AE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87973C7F2B215E16001427AE /* SwiftUIView.swift */; };
 		87D1A7522AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */; };
 		87D1A7542AF2B9A600AB3210 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7532AF2B9A600AB3210 /* HomeView.swift */; };
@@ -47,6 +63,22 @@
 		871FACBF2AFC5ABF00AA5148 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		871FACC72AFC656B00AA5148 /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
 		871FACC92AFC65A600AA5148 /* CameraTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestView.swift; sourceTree = "<group>"; };
+		878A8BD92B23DC9A00C8029E /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		878A8BDF2B23DC9A00C8029E /* CVPixelBuffer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Extension.swift"; sourceTree = "<group>"; };
+		878A8BE02B23DC9A00C8029E /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		878A8BE22B23DC9A00C8029E /* DepthOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepthOverlay.swift; sourceTree = "<group>"; };
+		878A8BE42B23DC9B00C8029E /* MetalTextureViewColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalTextureViewColor.swift; sourceTree = "<group>"; };
+		878A8BE52B23DC9B00C8029E /* MetalEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalEnvironment.swift; sourceTree = "<group>"; };
+		878A8BE62B23DC9B00C8029E /* MetalTextureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalTextureView.swift; sourceTree = "<group>"; };
+		878A8BE72B23DC9B00C8029E /* MetalTextureColorThresholdDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalTextureColorThresholdDepth.swift; sourceTree = "<group>"; };
+		878A8BE82B23DC9B00C8029E /* MetalContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalContentView.swift; sourceTree = "<group>"; };
+		878A8BEA2B23DC9B00C8029E /* shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = shaders.metal; sourceTree = "<group>"; };
+		878A8BEB2B23DC9B00C8029E /* MetalPointCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalPointCloud.swift; sourceTree = "<group>"; };
+		878A8BEC2B23DC9B00C8029E /* MetalTextureViewDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalTextureViewDepth.swift; sourceTree = "<group>"; };
+		878A8BED2B23DC9B00C8029E /* MetalTextureColorZap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalTextureColorZap.swift; sourceTree = "<group>"; };
+		878A8BEE2B23DC9B00C8029E /* ZoomOnTap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomOnTap.swift; sourceTree = "<group>"; };
+		878A8BEF2B23DC9B00C8029E /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		878A8BF02B23DC9B00C8029E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87973C7F2B215E16001427AE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		87D1A74E2AF2B9A600AB3210 /* Imaging_Diagnosis_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imaging_Diagnosis_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging_Diagnosis_AppApp.swift; sourceTree = "<group>"; };
@@ -89,9 +121,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		878A8BDE2B23DC9A00C8029E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				878A8BDF2B23DC9A00C8029E /* CVPixelBuffer+Extension.swift */,
+				878A8BE02B23DC9A00C8029E /* CameraManager.swift */,
+			);
+			name = Model;
+			path = LiDARDepth/Model;
+			sourceTree = "<group>";
+		};
+		878A8BE12B23DC9A00C8029E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				878A8BE22B23DC9A00C8029E /* DepthOverlay.swift */,
+				878A8BE32B23DC9B00C8029E /* Metal */,
+				878A8BEE2B23DC9B00C8029E /* ZoomOnTap.swift */,
+				878A8BEF2B23DC9B00C8029E /* View+Extensions.swift */,
+				878A8BF02B23DC9B00C8029E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		878A8BE32B23DC9B00C8029E /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				878A8BE42B23DC9B00C8029E /* MetalTextureViewColor.swift */,
+				878A8BE52B23DC9B00C8029E /* MetalEnvironment.swift */,
+				878A8BE62B23DC9B00C8029E /* MetalTextureView.swift */,
+				878A8BE72B23DC9B00C8029E /* MetalTextureColorThresholdDepth.swift */,
+				878A8BE82B23DC9B00C8029E /* MetalContentView.swift */,
+				878A8BE92B23DC9B00C8029E /* Shaders */,
+				878A8BEB2B23DC9B00C8029E /* MetalPointCloud.swift */,
+				878A8BEC2B23DC9B00C8029E /* MetalTextureViewDepth.swift */,
+				878A8BED2B23DC9B00C8029E /* MetalTextureColorZap.swift */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		878A8BE92B23DC9B00C8029E /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				878A8BEA2B23DC9B00C8029E /* shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 		87CD9EE92AFD93EB00E276DA /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				878A8BD92B23DC9A00C8029E /* CameraController.swift */,
 				871FACBD2AFC4F0600AA5148 /* CameraService.swift */,
 				871FACBF2AFC5ABF00AA5148 /* CameraView.swift */,
 				871FACC92AFC65A600AA5148 /* CameraTestView.swift */,
@@ -103,6 +182,7 @@
 		87CD9EEB2AFD940B00E276DA /* Other Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				878A8BE12B23DC9A00C8029E /* Views */,
 				87D1A7812AF2C2AF00AB3210 /* CalibrationView.swift */,
 				87973C7F2B215E16001427AE /* SwiftUIView.swift */,
 				87D1A77B2AF2BA5A00AB3210 /* LibraryView.swift */,
@@ -137,6 +217,7 @@
 			children = (
 				87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */,
 				87D1A7532AF2B9A600AB3210 /* HomeView.swift */,
+				878A8BDE2B23DC9A00C8029E /* Model */,
 				87CD9EE92AFD93EB00E276DA /* Camera */,
 				87CD9EEB2AFD940B00E276DA /* Other Tabs */,
 				87D1A7552AF2B9A800AB3210 /* Assets.xcassets */,
@@ -300,15 +381,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878A8BFB2B23DC9B00C8029E /* MetalTextureView.swift in Sources */,
+				878A8C032B23DC9B00C8029E /* View+Extensions.swift in Sources */,
+				878A8C042B23DC9B00C8029E /* ContentView.swift in Sources */,
 				87D1A7542AF2B9A600AB3210 /* HomeView.swift in Sources */,
 				871FACC82AFC656B00AA5148 /* CustomCameraView.swift in Sources */,
 				87973C802B215E16001427AE /* SwiftUIView.swift in Sources */,
+				878A8BF62B23DC9B00C8029E /* CVPixelBuffer+Extension.swift in Sources */,
+				878A8BFF2B23DC9B00C8029E /* MetalPointCloud.swift in Sources */,
+				878A8BF82B23DC9B00C8029E /* DepthOverlay.swift in Sources */,
+				878A8BF72B23DC9B00C8029E /* CameraManager.swift in Sources */,
+				878A8C012B23DC9B00C8029E /* MetalTextureColorZap.swift in Sources */,
+				878A8BF92B23DC9B00C8029E /* MetalTextureViewColor.swift in Sources */,
 				87D1A7802AF2BF5C00AB3210 /* SettingView.swift in Sources */,
 				871FACCA2AFC65A600AA5148 /* CameraTestView.swift in Sources */,
+				878A8BFE2B23DC9B00C8029E /* shaders.metal in Sources */,
 				87D1A77E2AF2BE3B00AB3210 /* HelpView.swift in Sources */,
+				878A8BF22B23DC9B00C8029E /* CameraController.swift in Sources */,
+				878A8BFD2B23DC9B00C8029E /* MetalContentView.swift in Sources */,
 				87D1A7822AF2C2AF00AB3210 /* CalibrationView.swift in Sources */,
+				878A8BFC2B23DC9B00C8029E /* MetalTextureColorThresholdDepth.swift in Sources */,
 				87D1A77C2AF2BA5A00AB3210 /* LibraryView.swift in Sources */,
+				878A8C002B23DC9B00C8029E /* MetalTextureViewDepth.swift in Sources */,
 				87D1A7522AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift in Sources */,
+				878A8BFA2B23DC9B00C8029E /* MetalEnvironment.swift in Sources */,
+				878A8C022B23DC9B00C8029E /* ZoomOnTap.swift in Sources */,
 				871FACBE2AFC4F0600AA5148 /* CameraService.swift in Sources */,
 				871FACC02AFC5ABF00AA5148 /* CameraView.swift in Sources */,
 			);

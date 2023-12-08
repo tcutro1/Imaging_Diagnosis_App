@@ -14,7 +14,10 @@ struct HomeView: View {
             ZStack{
                 Rectangle().foregroundColor(.black).ignoresSafeArea()
                 VStack(alignment: .center) {
-                    
+                    Rectangle().fill(.black).frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30.0/*@END_MENU_TOKEN@*/)
+                        
+                    ContentView()
+                        
                     ZStack{
                         Rectangle().foregroundColor(.black).frame(height: 100)
                         HStack(){
