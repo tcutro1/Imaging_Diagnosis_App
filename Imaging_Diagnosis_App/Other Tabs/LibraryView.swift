@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct LibraryView: View {
-    @State public var rgbimage: Image = Image("Testing")
-    
+    @State public var rgbimage: Image = Image("RGB")
+    @State public var Midimage: Image = Image("Mid")
+    @State public var Depthimage: Image = Image("Depth")
     var body: some View {
         ZStack{
             
@@ -19,11 +20,11 @@ struct LibraryView: View {
                    
                     
                     rgbimage.resizable().aspectRatio(contentMode: .fit)
-                    rgbimage.resizable().aspectRatio(contentMode: .fit)
+                    Depthimage.resizable().aspectRatio(contentMode: .fit)
                     
                     
                 }
-                rgbimage.resizable().aspectRatio(contentMode: .fit)
+                Midimage.resizable().aspectRatio(contentMode: .fit)
                    
                 ZStack{
                     
