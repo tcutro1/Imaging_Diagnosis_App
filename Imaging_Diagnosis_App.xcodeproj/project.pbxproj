@@ -28,6 +28,7 @@
 		878A8C032B23DC9B00C8029E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BEF2B23DC9B00C8029E /* View+Extensions.swift */; };
 		878A8C042B23DC9B00C8029E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A8BF02B23DC9B00C8029E /* ContentView.swift */; };
 		87973C802B215E16001427AE /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87973C7F2B215E16001427AE /* SwiftUIView.swift */; };
+		87C5FD682B71BF4300ACFC1E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C5FD672B71BF4200ACFC1E /* File.swift */; };
 		87D1A7522AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */; };
 		87D1A7542AF2B9A600AB3210 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D1A7532AF2B9A600AB3210 /* HomeView.swift */; };
 		87D1A7562AF2B9A800AB3210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D1A7552AF2B9A800AB3210 /* Assets.xcassets */; };
@@ -80,6 +81,7 @@
 		878A8BEF2B23DC9B00C8029E /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		878A8BF02B23DC9B00C8029E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87973C7F2B215E16001427AE /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		87C5FD672B71BF4200ACFC1E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		87D1A74E2AF2B9A600AB3210 /* Imaging_Diagnosis_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imaging_Diagnosis_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D1A7512AF2B9A600AB3210 /* Imaging_Diagnosis_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imaging_Diagnosis_AppApp.swift; sourceTree = "<group>"; };
 		87D1A7532AF2B9A600AB3210 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			children = (
 				878A8BE12B23DC9A00C8029E /* Views */,
 				87D1A7812AF2C2AF00AB3210 /* CalibrationView.swift */,
+				87C5FD672B71BF4200ACFC1E /* File.swift */,
 				87973C7F2B215E16001427AE /* SwiftUIView.swift */,
 				87D1A77B2AF2BA5A00AB3210 /* LibraryView.swift */,
 				87D1A77D2AF2BE3B00AB3210 /* HelpView.swift */,
@@ -315,7 +318,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					87D1A74D2AF2B9A600AB3210 = {
 						CreatedOnToolsVersion = 14.2;
@@ -390,6 +393,7 @@
 				878A8BF62B23DC9B00C8029E /* CVPixelBuffer+Extension.swift in Sources */,
 				878A8BFF2B23DC9B00C8029E /* MetalPointCloud.swift in Sources */,
 				878A8BF82B23DC9B00C8029E /* DepthOverlay.swift in Sources */,
+				87C5FD682B71BF4300ACFC1E /* File.swift in Sources */,
 				878A8BF72B23DC9B00C8029E /* CameraManager.swift in Sources */,
 				878A8C012B23DC9B00C8029E /* MetalTextureColorZap.swift in Sources */,
 				878A8BF92B23DC9B00C8029E /* MetalTextureViewColor.swift in Sources */,

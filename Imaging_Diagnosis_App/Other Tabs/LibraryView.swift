@@ -7,10 +7,10 @@
 
 import SwiftUI
 
+
 struct LibraryView: View {
-    @State public var rgbimage: Image = Image("RGB")
-    @State public var Midimage: Image = Image("Mid")
-    @State public var Depthimage: Image = Image("Depth")
+    @State public var photo = Photo()
+    var photos: [Photo]
     var body: some View {
         ZStack{
             
@@ -18,13 +18,13 @@ struct LibraryView: View {
             VStack{
                 HStack{
                    
+                    photo.rgbimage.resizable().aspectRatio(contentMode: .fit)
                     
-                    rgbimage.resizable().aspectRatio(contentMode: .fit)
-                    Depthimage.resizable().aspectRatio(contentMode: .fit)
+                    photo.Depthimage.resizable().aspectRatio(contentMode: .fit)
                     
                     
                 }
-                Midimage.resizable().aspectRatio(contentMode: .fit)
+                photo.Midimage.resizable().aspectRatio(contentMode: .fit)
                    
                 ZStack{
                     
@@ -36,6 +36,9 @@ struct LibraryView: View {
                                    """){
                                 
                             }
+                            Button(action: {photo.rgbimage = Image("Mid")}, label: {
+                                Text("Picture 1")
+                            })
                             Button("""
                                    Picture
                                    2
@@ -81,6 +84,7 @@ struct LibraryView: View {
 
 struct LibraryView_Previews: PreviewProvider {
     static var previews: some View {
-        LibraryView()
+        var photo = Photo()
+        LibraryView(photos: [photo])
     }
 }

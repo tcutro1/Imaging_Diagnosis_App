@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @State private var capturedImage: UIImage? = nil
+    @State public var photos: [Photo] = []
     var body: some View {
         NavigationView(){
             ZStack{
@@ -59,7 +60,7 @@ struct HomeView: View {
                             
                             ZStack{
                                 Rectangle()
-                                NavigationLink( destination: LibraryView()){
+                                NavigationLink( destination: LibraryView( photos: photos )){
                                     VStack{
                                         Text("Library").foregroundColor(.red)
                                         Image(systemName:"photo.stack")
